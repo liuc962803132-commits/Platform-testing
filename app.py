@@ -2,7 +2,9 @@ import streamlit as st
 import database as db
 import utils
 import views
-
+import os
+os.environ["STREAMLIT_WATCHDOG_TYPE"] = "none"
+os.environ["STREAMLIT_SERVER_RUN_ON_SAVE"] = "false"
 
 def main():
     # 1. 初始化数据库
