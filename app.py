@@ -1,7 +1,7 @@
 import streamlit as st
 import database as db
 import utils
-import views  # 导入视图层
+import views
 
 
 def main():
